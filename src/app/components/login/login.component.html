@@ -1,0 +1,12 @@
+
+<div class="container text-center">
+    <form action="" [formGroup]="loginForm">
+        <div class="container-fluid img-content">
+            <img src="../../../assets/img/hackerNewsIcon.png" width="130px"  alt="">
+        </div>
+        <h2>Login</h2>
+        <input type="text" class="form-control mt-5" placeholder="User Name" formControlName="userName">
+        <input type="password" class="form-control mt-3" placeholder="Password" formControlName="password">
+        <button class="btn mt-5 btn-style text-white" (click)="login()"><b>Login</b></button>
+    </form>
+</div>

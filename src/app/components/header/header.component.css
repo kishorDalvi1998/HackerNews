@@ -1,0 +1,25 @@
+.headericon{
+    margin-left:30px;
+    border-radius: 50px;
+}
+.header-btn{
+    border: 1px solid;
+    margin-right:20px;
+    border-radius: 10px;
+}
+.navbar-bg{
+    background-color: #36454F;
+}
+.hacker-txt{
+    margin-left: 5px;
+  
+}
+mat-icon{
+    color: #FFF;
+    margin-right:30px;
+    cursor: pointer;
+}
+.headertxt{
+    position: absolute;
+    right:60px;
+}

@@ -1,0 +1,8 @@
+<div [ngClass]="statusLink ? 'navLinkDar' : 'navLinkGenis animated fadeInLeft'">
+    <div class="container mt-5" *ngFor="let data of gatHacker">
+        <div>
+            {{data.news | htmlconver}}
+        </div>
+        <div class="byText">-by <b>{{data.by}}</b></div>
+    </div>
+</div>
